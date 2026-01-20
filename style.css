@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(30, 30, 30);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-border {
+  background: linear-gradient(45deg, red, blue, green, yellow);
+  padding: 2px;  transition: 0.3s;
+}
+
+.button {
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  padding: 1rem 1.5rem;
+  font-family: inherit;
+  letter-spacing: 0.1em;  transition: 0.3s;
+}
+
+/* .button-border :hover {
+  background:  linear-gradient(45deg, red, blue, green, yellow);
+} */
+
+.button-border:hover .button {
+  color: antiquewhite;
+  padding: 1.1rem 1.6rem;
+}
